@@ -54,6 +54,15 @@ gem "dotenv-rails"
 # Interface for managing your data
 gem 'rails_admin', '~> 3.0.0'
 
+# login
+gem 'devise'
+
+# Very simple Roles library without any authorization
+gem 'rolify'
+
+# Authorization library for Ruby and Ruby on Rails
+gem 'cancancan'
+
 # Make it easier for people using the API by setting CORS headers
 # CORS for API
 gem "rack-cors"
