@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 SimpleCov.start 'rails' do
   # to ignore some file in coverage
   add_filter [

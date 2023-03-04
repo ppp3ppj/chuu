@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'simplecov'
 # SimpleCov.start
 # See https://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
