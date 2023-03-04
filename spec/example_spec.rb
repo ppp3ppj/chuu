@@ -2,7 +2,7 @@
 
 require 'rails_helper'
 
-RSpec.describe Example do
+RSpec.describe 'Example' do
   describe 'eq' do
     it '45+9' do
       expect(45 + 9).to eq(54)

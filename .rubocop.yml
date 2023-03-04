@@ -11,6 +11,10 @@ AllCops:
     - 'Gemfile*'
     - 'app/views/**/*.jbuilder'
     - 'bin/*'
+    # add
+    - 'vendor/**/*'
+    - 'node_modules/**/*'
+    - 'tmp/**/*'
   NewCops: disable
 
 Metrics/BlockLength:
