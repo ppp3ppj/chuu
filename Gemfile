@@ -65,6 +65,16 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  # Help with code quality
+  gem 'brakeman', require: false
+  
+  # rubocop
+  # Ruby code style checker (linter) and formatter based on the community-driven
+  gem 'rubocop', require: false
+  gem 'rubocop-rails', require: false
+  gem 'rubocop-rspec', require: false
+  gem 'rubocop-performance', require: false
 end
 
 group :test do
