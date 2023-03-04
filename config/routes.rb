@@ -7,4 +7,8 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+
+  # health check
+  get '/up/', to: "up#index", as: :up
+  get '/up/database', to: "up#database", as: :up_database
 end
